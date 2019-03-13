@@ -1,5 +1,9 @@
 body {
     text-align: center;
+    background-image: url("https://www.projectsmart.co.uk/img/risk.png");
+    /* background-repeat: no-repeat;
+    background-size: 100% 100% ; */
+
   }
   
   .container {
@@ -13,12 +17,12 @@ body {
   }
   
   h2{
-    /* text-align: right ; */
+    
     float: right;
     
   }
   h3{
-    /* text-align: left; */
+    
     float: left;
     font-size:  20pt;
   
@@ -31,19 +35,27 @@ body {
     border: solid black;
     margin: 10;
     display: inline-block;
-    /* transition: 0.5s all; */
+    
   }
 
   #player1{
-    /* text-align: right; */
+    
     float: right;
-    margin-top: 90px;
-    border:  solid black;
+    margin-top: 50px;
+    border: solid black;
+    padding: 9px;
+    
   }
   #player2{
     float: left;
-    margin-top: 90px;
+    margin-top: 50px;
     border:  solid black;
+    padding: 9px;
+    margin-left: 0px; 
+  }
+  button {
+    font-size: 10pt;
+    background-color: aqua
   }
  
   
